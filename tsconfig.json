@@ -1,0 +1,26 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": ".",
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "typeRoots": [
+            "typings",
+            "node_modules/@types"
+        ],
+        // fixes an issue with ts-loader
+        // https://github.com/TypeStrong/ts-loader/issues/243
+        "types": [
+            "node"
+        ],
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
